@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+.navsubhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.navhead {
+  background-color: #69023b;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: #FBE0D1;
+  }
+.list ul {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  align-items: center;
+ 
+}
+
+.list{
+    
+   line-height: 110%;
+}
+
+nav img{
+    width: 50%;
+}
+
+
+main{
+    width: 100%;
+}
+
+main img{
+    width: 100%;
+}
+
+.logo2 img {
+    position: absolute;
+}
