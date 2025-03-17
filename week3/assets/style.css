@@ -1,9 +1,11 @@
+
+
 * {
   margin: 0px;
   padding: 0px;
 }
-body{
-    box-sizing: border-box;
+body {
+  box-sizing: border-box;
 }
 .navsubhead {
   display: flex;
@@ -23,35 +25,149 @@ li {
 }
 
 .list ul li a {
-    text-decoration: none;
-    color: #FBE0D1;
-  }
+  text-decoration: none;
+  color: #fbe0d1;
+}
 .list ul {
   display: flex;
   gap: 20px;
   justify-content: end;
   align-items: center;
- 
 }
 
-.list{
-    
-   line-height: 110%;
+.list {
+  line-height: 110%;
 }
 
-nav img{
-    width: 50%;
+nav img {
+  width: 50%;
 }
 
-
-main{
-    width: 100%;
+main {
+  width: 100%;
 }
 
-main img{
-    width: 100%;
+main img {
+  width: 100%;
 }
 
 .logo2 img {
-    position: absolute;
+  position: absolute;
+}
+
+.heroimg {
+  background-image: url('./Image.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 700px; 
+ 
+}
+
+.heroimg img {
+  width: 400px;
+padding: 70px;
+}
+
+.insidesec{
+
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+.applysec{
+
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.applysec button{
+  padding: 10px 15px;
+  font-size: 2rem;
+  background-color: #69023b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contentsec{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FBE0D1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  align-items: center;
+
+}
+
+.more button{
+  color: #69023b;
+  border: 1px solid #69023b;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #FBE0D1;
+  padding: 25px;
+}
+.secondcontent{
+  line-height: 3;
+}
+.ph4{
+  font-size: 2rem;
+  color: #69023b;
+}
+
+.btn{
+  padding: 5px 10px;
+  font-size: 0.90rem;
+  background-color: #69023b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+
+.headline{
+  font-size: 1.5rem;
+  color: #69023b;
+}
+
+.ptext{
+  line-height: 1.5;
+}
+
+.contact{
+  border: 0.2px solid rgba(60, 57, 57, 0.5);
+  padding: 10px 30px 10px 50px;
+  margin-top: 30px;
+  color: #69023b;
+  margin-bottom: 30px;
+  
+}
+
+
+footer{
+  background-color: #69023b;
+  color: white;
+}
+
+.logo{
+  align-items: center;
+  text-align: center;
+  word-spacing: 10px;
+  color: white;
+}
+
+.footerlink{
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 2;
+}
+
+.linka{
+color: #fbe0d1;;
 }
