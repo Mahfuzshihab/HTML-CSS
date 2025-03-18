@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="/week4/assets/style.css">
+
 </head>
 <body>
     <div class="container">
         <div class="leftpanel">
-            <h2>Come join us!</h2>
-            <p>We are so excited to have you here. If you are not a member, create an account quickly.</p>
+            <h2>Please Login</h2>
+            <p>We are so excited to have you here. Create an account.</p>
+            <button class="signinbtn">Already have an account? Sign in.</button>
+        </div>
+        <div class="rightpanel">
+            <h2>Signup</h2>
+            <form>
+                <label for="Username">   <input type="text" placeholder="Username" required>  </label>   
+               <label for="email"><input type="email" placeholder="Email" required></label>    
+            <label for="password"><input type="password" placeholder="Password" required></label>    
+            <label for="password"><input type="password" placeholder="Confirm Password" required></label>    
+                <button type="submit" class="signupbtn">Signup</button>
+            </form>
             
+        </div>
+    </div>
 </body>
 </html>
